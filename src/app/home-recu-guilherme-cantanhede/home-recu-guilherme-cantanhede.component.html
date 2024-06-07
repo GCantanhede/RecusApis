@@ -1,0 +1,13 @@
+<div>
+<img src="{{this.image}}" alt="Recu Guilherme Cantanhede">
+  <p>{{this.message}}</p>
+
+  <p><b>Nom baia: </b>{{this.data.item.name}}</p>
+  <p><b>Preu de la baia: </b>{{this.cost}} €</p>
+  <p><b>Preu BNB: </b> {{ this.prices.binancecoin?.eur }} €</p>
+  <p><b>Preu baia en BNB: </b> {{ this.preubnb }} BNB</p>
+
+  <button (click)="this.comprar()">Comprar</button>
+  <div></div>
+  <a routerLink="/info">Exercici 3</a>
+</div>
